@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	
+}
+
+body{
+	background-image:url("image7.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+	font:16px Helvetica,Arial,Sans-Serif;
+	color: #636363;
+	line-height:24px;
+}
+
+.flex_container{
+	display:-webkit-flex;
+	display:block;
+	width:1000px;
+	
+	margin:auto;
+	
+}
+
+ul#nav{
+	list-style-type:none;
+	overflow:hidden;
+	width:1000px;
+	
+
+	margin-top:40px;
+	
+	
+	
+}
+
+
+li:hover:not(#link3){
+	
+	background-color:tomato;
+}
+
+#link1{
+	
+	width:150px;
+	height:60px;
+	float:left;
+	
+	text-transform:uppercase;
+	background-color:#333;
+	text-align:center;
+	border-radius:10px;
+	margin-left:0;
+	margin-right:133px;
+}
+
+#link2{
+	
+	width:150px;
+	height:60px;
+	float:left;
+	
+	text-transform:uppercase;
+	background-color:#333;
+	text-align:center;
+	border-radius:10px;
+	margin-left:0;
+	margin-right:134px;
+}
+#link3{
+	
+	width:150px;
+	height:60px;
+	float:left;
+	
+	text-transform:uppercase;
+	background-color:#4CAF50;
+	text-align:center;
+	border-radius:10px;
+	margin-left:0;
+	margin-right:133px;
+}
+
+#link4{
+	
+	width:150px;
+	height:60px;
+	float:left;
+	
+	text-transform:uppercase;
+	background-color:#333;
+	text-align:center;
+	border-radius:10px;
+	margin-left:0;
+	margin-right:0;
+}
+
+ul#nav li a{
+	text-decoration:none;
+	color:white;
+	font:30px ;
+	margin-top:20px;
+	
+	display:block;
+	font:20px bold;	
+}
+
+#top{
+	background-image:url("bg2.png");
+	height:300px;
+	margin:20px 0 10px 0;
+	border-radius:10px 10px 0 0;
+	
+	
+}
+
+h1{
+	text-align:center;
+	color:white;
+	font-family:Calligraffitti,Serif, cursive;
+	font-size:50px;
+	padding-top:125px;
+	word-spacing:5px;
+	letter-spacing:3px;
+}
+
+#cover{
+	background-color:white;
+	border-radius:0 0 10px 10px;
+	padding:60px 50px 60px 50px;
+	display:block;
+	margin:0 0 50px 0;
+}
+
+#beg{
+	font-size:20px;
+	padding:10px 0 10px 0;
+}
+
+.head{
+	text-align:center;
+	padding:20px 0 20px 0;
+	color:black;
+	margin-top:30px;
+	font-size:30px;
+	
+}
+.para{
+	font-size:20px;
+	margin:20px 0 0 20px;
+}
+
